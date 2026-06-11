@@ -1,0 +1,6 @@
+Secteur d'activité : Tourisme
+Activités proposées : 
+	_ Location de logement: (Maison, Gîte, Appartement)
+
+	_ Activités touristiques : Mise en relation avec des professionnels de diff secteurs d'activités autour du lieu
+		-> Cuisine - Visites guidées - etc.
