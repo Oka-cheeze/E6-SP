@@ -1,0 +1,322 @@
+[2026-03-18 14:32:52] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43b51899622sm9393237f8f.28 - gsmtp
+
+[2026-03-18 14:32:52] CLIENT -> SERVER: EHLO localhost
+
+[2026-03-18 14:32:53] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [80.236.86.68]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-03-18 14:32:53] CLIENT -> SERVER: STARTTLS
+
+[2026-03-18 14:32:53] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2026-03-18 14:32:53] CLIENT -> SERVER: EHLO localhost
+
+[2026-03-18 14:32:53] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [80.236.86.68]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-03-18 14:32:53] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-03-18 14:32:53] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-03-18 14:32:53] CLIENT -> SERVER: [credentials hidden]
+[2026-03-18 14:32:53] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-03-18 14:32:53] CLIENT -> SERVER: [credentials hidden]
+[2026-03-18 14:32:53] SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43b51899622sm9393237f8f.28 - gsmtp
+
+[2026-03-18 14:32:53] SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43b51899622sm9393237f8f.28 - gsmtp
+
+[2026-03-18 14:32:53] SMTP Error: Could not authenticate.
+[2026-03-18 14:32:53] CLIENT -> SERVER: QUIT
+
+[2026-03-18 14:32:53] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43b51899622sm9393237f8f.28 - gsmtp
+
+[2026-03-18 14:32:53] SMTP Error: Could not authenticate.
+[2026-03-18 14:32:53] ❌ ERREUR PHPMailer : SMTP Error: Could not authenticate.
+[2026-03-18 14:58:56] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43b51852097sm8252272f8f.9 - gsmtp
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: EHLO localhost
+
+[2026-03-18 14:58:56] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [80.236.86.68]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: STARTTLS
+
+[2026-03-18 14:58:56] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: EHLO localhost
+
+[2026-03-18 14:58:56] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [80.236.86.68]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-03-18 14:58:56] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: [credentials hidden]
+[2026-03-18 14:58:56] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: [credentials hidden]
+[2026-03-18 14:58:56] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: MAIL FROM:<florian.manival@gmail.com>
+
+[2026-03-18 14:58:56] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-43b51852097sm8252272f8f.9 - gsmtp
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: RCPT TO:<anissa.latreche@mediaschool.me>
+
+[2026-03-18 14:58:56] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43b51852097sm8252272f8f.9 - gsmtp
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: DATA
+
+[2026-03-18 14:58:56] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-43b51852097sm8252272f8f.9 - gsmtp
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: Date: Wed, 18 Mar 2026 14:58:55 +0000
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: To: anissa.latreche@mediaschool.me
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: From: Neige et Soleil <florian.manival@gmail.com>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: Reply-To: Neige et Soleil <florian.manival@gmail.com>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: Subject: =?UTF-8?Q?R=C3=A9servation_#5_confirm=C3=A9e_=E2=80=94_Neige_et_Soleil?=
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: Message-ID: <d3CMdshvQ91YrMNio67xU1aWlEqb7Uk4of1G0X4O4@localhost>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: <!DOCTYPE html>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: <html lang="fr">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: <body style="margin:0;padding:0;background:#f4f7f6;font-family:Segoe UI,Arial,sans-serif;color:#333;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: <table width="100%" cellpadding="0" cellspacing="0" style="background:#f4f7f6;padding:40px 16px;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:   <tr><td align="center">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:   <table width="600" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.08);max-width:600px;width:100%;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       <td style="background:linear-gradient(135deg,#4d7c6d 0%,#3a5e52 100%);padding:36px 40px;text-align:center;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0;font-size:1.7rem;font-weight:bold;color:#fff;letter-spacing:1px;">&#x2744;&#xFE0F; Neige et Soleil</p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:8px 0 0;color:rgba(255,255,255,0.75);font-size:0.9rem;">Votre partenaire montagne</p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       </td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       <td style="background:#e8f5e9;padding:18px 40px;text-align:center;border-bottom:3px solid #4d7c6d;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0;font-size:1.05rem;font-weight:bold;color:#2e7d32;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           &#x2705; Réservation #5 confirmée !
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         </p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       </td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       <td style="padding:36px 40px;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0 0 18px;font-size:1rem;">Bonjour <strong>Lala</strong>,</p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0 0 28px;font-size:0.95rem;line-height:1.7;color:#555;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           Nous vous remercions chaleureusement pour votre confiance et sommes ravis de vous compter parmi nos voyageurs.
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           Votre réservation a bien été enregistrée — voici votre récapitulatif.
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         </p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <table width="100%" cellpadding="0" cellspacing="0"
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:                style="background:#f8faf9;border-radius:10px;border:1px solid #d6e8e3;padding:20px 24px;margin-bottom:28px;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td colspan="2" style="padding-bottom:12px;font-weight:bold;color:#4d7c6d;
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:                                     font-size:0.8rem;text-transform:uppercase;letter-spacing:0.6px;
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:                                     border-bottom:1px solid #d6e8e3;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:               Récapitulatif de votre séjour
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             </td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:10px 0 4px;color:#888;font-size:0.85rem;">Logement</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:10px 0 4px;text-align:right;font-weight:bold;color:#333;">Maison de Bois</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;color:#888;font-size:0.85rem;">Destination</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;text-align:right;color:#333;">Chamonix</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;color:#888;font-size:0.85rem;">Arrivée</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;text-align:right;color:#333;">11/03/2026</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;color:#888;font-size:0.85rem;">Départ</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;text-align:right;color:#333;">14/03/2026</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;color:#888;font-size:0.85rem;">Durée</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="padding:4px 0;text-align:right;color:#333;">3 nuit(s)</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr><td colspan="2" style="padding-top:14px;border-top:2px solid #4d7c6d;"></td></tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="font-weight:bold;font-size:1rem;">Total</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:             <td style="text-align:right;font-weight:bold;font-size:1.15rem;color:#4d7c6d;">780,00 €</td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         </table>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0 0 10px;font-size:0.95rem;line-height:1.7;color:#555;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           Toute l'équipe Neige et Soleil vous souhaite un séjour exceptionnel.
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           N'hésitez pas à nous écrire pour toute question avant votre arrivée.
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         </p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0;font-size:1rem;color:#4d7c6d;font-weight:bold;">À très bientôt sur les pistes ! &#x1F3BF;</p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       </td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     <tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       <td style="background:#f8faf9;border-top:1px solid #e0ece8;padding:24px 40px;text-align:center;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0 0 4px;font-weight:bold;color:#4d7c6d;font-size:0.9rem;">Neige et Soleil</p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:0;font-size:0.8rem;color:#aaa;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           123 Rue des Sommets, 05120 Saint-Véran<br>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           <a href="mailto:contact@neigeetsoleil.fr" style="color:#4d7c6d;text-decoration:none;">contact@neigeetsoleil.fr</a>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           &nbsp;·&nbsp; +33 4 00 00 00 00
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         </p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         <p style="margin:10px 0 0;font-size:0.75rem;color:#ccc;">
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:           Cet email a été envoyé automatiquement, merci de ne pas y répondre directement.
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:         </p>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:       </td>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:     </tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:   </table>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER:   </td></tr>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: </table>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: </body>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: </html>
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: 
+
+[2026-03-18 14:58:56] CLIENT -> SERVER: .
+
+[2026-03-18 14:58:57] SERVER -> CLIENT: 250 2.0.0 OK  1773845937 ffacd0b85a97d-43b51852097sm8252272f8f.9 - gsmtp
+
+[2026-03-18 14:58:57] CLIENT -> SERVER: QUIT
+
+[2026-03-18 14:58:57] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43b51852097sm8252272f8f.9 - gsmtp
+
+[2026-03-18 14:58:57] ✅ Email envoyé à anissa.latreche@mediaschool.me (réservation #5)

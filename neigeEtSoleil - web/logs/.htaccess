@@ -1,0 +1,2 @@
+# Interdit l'accès direct au dossier logs depuis le navigateur
+Deny from all
